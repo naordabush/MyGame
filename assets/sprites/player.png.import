@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cxr6jlu0neavp"
-path="res://.godot/imported/player-run-6.png-6ebaf7a51eda5e3e38b509b1c05b9ad0.ctex"
+uid="uid://ccr2juxwv5pew"
+path="res://.godot/imported/player.png-e1eaffe0873063c60a0d0b322e4d87d9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/Sunny-land-files/Sunny-land-assets-files/PNG/sprites/player/run/player-run-6.png"
-dest_files=["res://.godot/imported/player-run-6.png-6ebaf7a51eda5e3e38b509b1c05b9ad0.ctex"]
+source_file="res://assets/sprites/player.png"
+dest_files=["res://.godot/imported/player.png-e1eaffe0873063c60a0d0b322e4d87d9.ctex"]
 
 [params]
 
