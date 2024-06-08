@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=3 uid="uid://dqnaqj8yb6hwd"]
+[gd_scene load_steps=17 format=3 uid="uid://dqnaqj8yb6hwd"]
 
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_ofpvf"]
 [ext_resource type="Texture2D" uid="uid://ccr2juxwv5pew" path="res://assets/sprites/player.png" id="2_48ww1"]
@@ -19,9 +19,13 @@ region = Rect2(66, 0, 33, 32)
 atlas = ExtResource("2_48ww1")
 region = Rect2(99, 0, 33, 32)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_tdo2s"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_qrivf"]
 atlas = ExtResource("2_48ww1")
 region = Rect2(0, 160, 33, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wyxct"]
+atlas = ExtResource("2_48ww1")
+region = Rect2(33, 160, 33, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_x8c0t"]
 atlas = ExtResource("2_48ww1")
@@ -68,11 +72,14 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_tdo2s")
+"texture": SubResource("AtlasTexture_qrivf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wyxct")
 }],
 "loop": true,
 "name": &"jump",
-"speed": 10.0
+"speed": 5.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -109,7 +116,7 @@ script = ExtResource("1_ofpvf")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(0, -12)
 sprite_frames = SubResource("SpriteFrames_81gkq")
-animation = &"idle"
+animation = &"jump"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-0.5, -5.5)
