@@ -1,2 +1,2 @@
 # MyGame
-A simple 2D game built with Godot Engine
+A simple 2D platform game built with Godot Game Engine
